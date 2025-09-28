@@ -1,5 +1,6 @@
 import 'package:buynow/database/db_helper.dart';
 import 'package:buynow/features/splash/screen/splash_screen.dart';
+import 'package:buynow/features2/learn_api/get_api.dart';
 import 'package:buynow/features2/learn_hive/hive_screen.dart';
 import 'package:buynow/features2/learn_hive/note_model.dart';
 import 'package:buynow/features2/learn_hive/notes_screen.dart';
@@ -45,7 +46,8 @@ class MyApp extends StatelessWidget {
       // home: GetBatteryScreen(),
       // home: VideoPlayScreen(),
       // home: BetterPlayerPlusExample(),
-      home: VideoDownloadScreen(),
+      // home: VideoDownloadScreen(),
+      home: GetApi(),
     );
   }
 }
